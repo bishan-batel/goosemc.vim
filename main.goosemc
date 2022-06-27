@@ -1,0 +1,13 @@
+tag gooseTag = "";
+
+nbt holdingSword = {
+	SelectedItem: {id:"minecraft:sword"}
+};
+
+function init :: @minecraft:load {
+	say("hi")
+}
+
+function tick :: minecraft:tick {
+	say("lol")
+}
